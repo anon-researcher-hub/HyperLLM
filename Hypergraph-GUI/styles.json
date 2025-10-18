@@ -1,0 +1,92 @@
+{
+  "colors": {
+    "primary": "#2196F3",
+    "secondary": "#4CAF50",
+    "danger": "#f44336",
+    "warning": "#FF9800",
+    "success": "#4CAF50",
+    "info": "#00BCD4",
+    "light": "#f5f5f5",
+    "dark": "#333333",
+    "console_bg": "#1e1e1e",
+    "console_fg": "#ffffff"
+  },
+  "fonts": {
+    "default": {
+      "family": "Arial",
+      "size": 10
+    },
+    "title": {
+      "family": "Arial",
+      "size": 16,
+      "weight": "bold"
+    },
+    "button": {
+      "family": "Arial",
+      "size": 12,
+      "weight": "bold"
+    },
+    "console": {
+      "family": "Consolas",
+      "size": 9
+    }
+  },
+  "button_styles": {
+    "start": {
+      "bg": "#4CAF50",
+      "fg": "white",
+      "active_bg": "#45a049"
+    },
+    "stop": {
+      "bg": "#f44336",
+      "fg": "white",
+      "active_bg": "#da190b"
+    },
+    "normal": {
+      "bg": "#2196F3",
+      "fg": "white",
+      "active_bg": "#0b7dda"
+    }
+  },
+  "icons": {
+    "start": "▶",
+    "stop": "⏹",
+    "pause": "⏸",
+    "refresh": "🔄",
+    "folder": "📁",
+    "file": "📄",
+    "save": "💾",
+    "export": "📤",
+    "import": "📥",
+    "settings": "⚙",
+    "info": "ℹ",
+    "warning": "⚠",
+    "error": "❌",
+    "success": "✅",
+    "chart": "📊",
+    "network": "🕸",
+    "agent": "🤖"
+  },
+  "phase_colors": {
+    "idle": "gray",
+    "building": "orange",
+    "evolution": "green",
+    "completed": "blue",
+    "error": "red"
+  },
+  "themes": {
+    "default": {
+      "bg": "#ffffff",
+      "fg": "#000000"
+    },
+    "dark": {
+      "bg": "#2b2b2b",
+      "fg": "#ffffff"
+    },
+    "light": {
+      "bg": "#f5f5f5",
+      "fg": "#333333"
+    }
+  }
+}
+

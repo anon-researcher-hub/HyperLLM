@@ -1,0 +1,508 @@
+{
+  "title": {
+    "en": "HyperLLM Multi-Agent System",
+    "zh": "超图多智能体系统",
+    "ko": "하이퍼그래프 멀티 에이전트 시스템"
+  },
+  "select_language": {
+    "en": "Select Language / 选择语言 / 언어 선택",
+    "zh": "选择语言",
+    "ko": "언어 선택"
+  },
+  "tab_modeling": {
+    "en": "Hypergraph Modeling",
+    "zh": "超图建模",
+    "ko": "하이퍼그래프 모델링"
+  },
+  "tab_parameters": {
+    "en": "Parameters",
+    "zh": "参数配置",
+    "ko": "매개변수"
+  },
+  "tab_evaluation": {
+    "en": "Evaluation",
+    "zh": "评估分析",
+    "ko": "평가"
+  },
+  "tab_entity": {
+    "en": "Entity Generation",
+    "zh": "节点生成",
+    "ko": "엔티티 생성"
+  },
+  "start_generation": {
+    "en": "Start Generation",
+    "zh": "开始生成",
+    "ko": "생성 시작"
+  },
+  "stop_generation": {
+    "en": "Stop Generation",
+    "zh": "停止生成",
+    "ko": "생성 중지"
+  },
+  "current_phase": {
+    "en": "Current Phase:",
+    "zh": "当前阶段：",
+    "ko": "현재 단계:"
+  },
+  "building_phase": {
+    "en": "Building Phase",
+    "zh": "建设阶段",
+    "ko": "구축 단계"
+  },
+  "evolution_phase": {
+    "en": "Evolution Phase",
+    "zh": "演化阶段",
+    "ko": "진화 단계"
+  },
+  "hyperedges_generated": {
+    "en": "Hyperedges Generated:",
+    "zh": "已生成超边数：",
+    "ko": "생성된 하이퍼엣지:"
+  },
+  "progress": {
+    "en": "Progress:",
+    "zh": "进度：",
+    "ko": "진행률:"
+  },
+  "recent_hyperedges": {
+    "en": "Recent Hyperedges",
+    "zh": "最近生成的超边",
+    "ko": "최근 하이퍼엣지"
+  },
+  "iterations": {
+    "en": "Iterations:",
+    "zh": "演化轮数：",
+    "ko": "반복 횟수:"
+  },
+  "groups_per_iteration": {
+    "en": "Groups per Iteration:",
+    "zh": "每轮超边数：",
+    "ko": "반복당 그룹:"
+  },
+  "max_members": {
+    "en": "Max Members:",
+    "zh": "最大成员数：",
+    "ko": "최대 멤버:"
+  },
+  "model_selection": {
+    "en": "LLM Model:",
+    "zh": "LLM模型：",
+    "ko": "LLM 모델:"
+  },
+  "config_file": {
+    "en": "Config File:",
+    "zh": "配置文件：",
+    "ko": "구성 파일:"
+  },
+  "personas_file": {
+    "en": "Personas File:",
+    "zh": "节点文件：",
+    "ko": "페르소나 파일:"
+  },
+  "resume_directory": {
+    "en": "Resume Directory:",
+    "zh": "继续目录：",
+    "ko": "재개 디렉토리:"
+  },
+  "browse": {
+    "en": "Browse",
+    "zh": "浏览",
+    "ko": "찾아보기"
+  },
+  "agent_parameters": {
+    "en": "Agent Parameters",
+    "zh": "智能体参数",
+    "ko": "에이전트 매개변수"
+  },
+  "generator_agent": {
+    "en": "Generator Agent",
+    "zh": "生成智能体",
+    "ko": "생성 에이전트"
+  },
+  "reviewer_agent": {
+    "en": "Reviewer Agent",
+    "zh": "评审智能体",
+    "ko": "검토 에이전트"
+  },
+  "remover_agent": {
+    "en": "Remover Agent",
+    "zh": "移除智能体",
+    "ko": "제거 에이전트"
+  },
+  "optimizer_agent": {
+    "en": "Optimizer Agent",
+    "zh": "优化智能体",
+    "ko": "최적화 에이전트"
+  },
+  "temperature": {
+    "en": "Temperature:",
+    "zh": "温度：",
+    "ko": "온도:"
+  },
+  "max_tokens": {
+    "en": "Max Tokens:",
+    "zh": "最大令牌：",
+    "ko": "최대 토큰:"
+  },
+  "evaluation_type": {
+    "en": "Evaluation Type:",
+    "zh": "评估类型：",
+    "ko": "평가 유형:"
+  },
+  "run_evaluation": {
+    "en": "Run Evaluation",
+    "zh": "运行评估",
+    "ko": "평가 실행"
+  },
+  "hypergraph_file": {
+    "en": "Hypergraph File:",
+    "zh": "超图文件：",
+    "ko": "하이퍼그래프 파일:"
+  },
+  "evaluation_results": {
+    "en": "Evaluation Results",
+    "zh": "评估结果",
+    "ko": "평가 결과"
+  },
+  "basic_statistics": {
+    "en": "Basic Statistics",
+    "zh": "基本统计",
+    "ko": "기본 통계"
+  },
+  "structural_counts": {
+    "en": "Structural Counts",
+    "zh": "结构计数",
+    "ko": "구조 계수"
+  },
+  "clustering_coefficient": {
+    "en": "Clustering Coefficient",
+    "zh": "聚类系数",
+    "ko": "클러스터링 계수"
+  },
+  "spectral_similarity": {
+    "en": "Spectral Similarity",
+    "zh": "谱相似度",
+    "ko": "스펙트럼 유사성"
+  },
+  "motif_analysis": {
+    "en": "Motif Analysis",
+    "zh": "模体分析",
+    "ko": "모티프 분석"
+  },
+  "matlab_evaluations": {
+    "en": "MATLAB Evaluations",
+    "zh": "MATLAB评估",
+    "ko": "MATLAB 평가"
+  },
+  "community_detection": {
+    "en": "Community Detection",
+    "zh": "社团检测",
+    "ko": "커뮤니티 탐지"
+  },
+  "generation_method": {
+    "en": "Generation Method:",
+    "zh": "生成方法：",
+    "ko": "생성 방법:"
+  },
+  "statistical_generation": {
+    "en": "Statistical (Demographics)",
+    "zh": "统计生成（人口统计）",
+    "ko": "통계 생성 (인구 통계)"
+  },
+  "llm_generation": {
+    "en": "LLM Generation",
+    "zh": "大模型生成",
+    "ko": "LLM 생성"
+  },
+  "num_personas": {
+    "en": "Number of Personas:",
+    "zh": "节点数量：",
+    "ko": "페르소나 수:"
+  },
+  "generate_personas": {
+    "en": "Generate Personas",
+    "zh": "生成节点",
+    "ko": "페르소나 생성"
+  },
+  "output_file": {
+    "en": "Output File:",
+    "zh": "输出文件：",
+    "ko": "출력 파일:"
+  },
+  "status": {
+    "en": "Status:",
+    "zh": "状态：",
+    "ko": "상태:"
+  },
+  "ready": {
+    "en": "Ready",
+    "zh": "就绪",
+    "ko": "준비됨"
+  },
+  "running": {
+    "en": "Running...",
+    "zh": "运行中...",
+    "ko": "실행 중..."
+  },
+  "completed": {
+    "en": "Completed",
+    "zh": "已完成",
+    "ko": "완료됨"
+  },
+  "error": {
+    "en": "Error",
+    "zh": "错误",
+    "ko": "오류"
+  },
+  "nodes": {
+    "en": "Nodes:",
+    "zh": "节点数：",
+    "ko": "노드:"
+  },
+  "edges": {
+    "en": "Hyperedges:",
+    "zh": "超边数：",
+    "ko": "하이퍼엣지:"
+  },
+  "avg_size": {
+    "en": "Avg Size:",
+    "zh": "平均大小：",
+    "ko": "평균 크기:"
+  },
+  "api_configuration": {
+    "en": "API Configuration",
+    "zh": "API配置",
+    "ko": "API 구성"
+  },
+  "api_key": {
+    "en": "API Key:",
+    "zh": "API密钥：",
+    "ko": "API 키:"
+  },
+  "api_base_url": {
+    "en": "API Base URL:",
+    "zh": "API基础URL：",
+    "ko": "API 기본 URL:"
+  },
+  "save_api_config": {
+    "en": "Save API Config",
+    "zh": "保存API配置",
+    "ko": "API 구성 저장"
+  },
+  "preferential_attachment": {
+    "en": "Preferential Attachment Probability:",
+    "zh": "优先连接概率：",
+    "ko": "우선 연결 확률:"
+  },
+  "personas_viewer": {
+    "en": "Personas Viewer",
+    "zh": "节点查看器",
+    "ko": "페르소나 뷰어"
+  },
+  "load_personas": {
+    "en": "Load Personas File",
+    "zh": "加载节点文件",
+    "ko": "페르소나 파일 로드"
+  },
+  "total_personas": {
+    "en": "Total Personas:",
+    "zh": "总节点数：",
+    "ko": "총 페르소나:"
+  },
+  "search_persona": {
+    "en": "Search by ID:",
+    "zh": "按ID搜索：",
+    "ko": "ID로 검색:"
+  },
+  "persona_details": {
+    "en": "Persona Details",
+    "zh": "节点详情",
+    "ko": "페르소나 세부정보"
+  },
+  "refresh": {
+    "en": "Refresh",
+    "zh": "刷新",
+    "ko": "새로 고침"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空",
+    "ko": "지우기"
+  },
+  "api_config_saved": {
+    "en": "API configuration saved successfully",
+    "zh": "API配置保存成功",
+    "ko": "API 구성이 성공적으로 저장되었습니다"
+  },
+  "load_file_first": {
+    "en": "Please load a personas file first",
+    "zh": "请先加载节点文件",
+    "ko": "먼저 페르소나 파일을 로드하세요"
+  },
+  "community_detection_clique": {
+    "en": "Community Detection (Clique+Louvain)",
+    "zh": "社团检测（团扩展+Louvain）",
+    "ko": "커뮤니티 탐지 (Clique+Louvain)"
+  },
+  "matlab_all_evaluations": {
+    "en": "All MATLAB Evaluations (8 types)",
+    "zh": "全部MATLAB评估（8种）",
+    "ko": "모든 MATLAB 평가 (8가지)"
+  },
+  "matlab_degrees": {
+    "en": "MATLAB: Node Degrees",
+    "zh": "MATLAB：节点度数",
+    "ko": "MATLAB: 노드 차수"
+  },
+  "matlab_group_degrees": {
+    "en": "MATLAB: Group Degrees",
+    "zh": "MATLAB：组度数",
+    "ko": "MATLAB: 그룹 차수"
+  },
+  "matlab_hyperedge_sizes": {
+    "en": "MATLAB: Hyperedge Sizes",
+    "zh": "MATLAB：超边大小",
+    "ko": "MATLAB: 하이퍼엣지 크기"
+  },
+  "matlab_intersecting_pairs": {
+    "en": "MATLAB: Intersecting Pairs",
+    "zh": "MATLAB：交叉对",
+    "ko": "MATLAB: 교차 쌍"
+  },
+  "matlab_intersection_sizes": {
+    "en": "MATLAB: Intersection Sizes",
+    "zh": "MATLAB：交集大小",
+    "ko": "MATLAB: 교집합 크기"
+  },
+  "matlab_power_law": {
+    "en": "MATLAB: Power Law Persistence",
+    "zh": "MATLAB：幂律持久性",
+    "ko": "MATLAB: 멱법칙 지속성"
+  },
+  "matlab_singular_values": {
+    "en": "MATLAB: Singular Values",
+    "zh": "MATLAB：奇异值",
+    "ko": "MATLAB: 특이값"
+  },
+  "matlab_temporal_locality": {
+    "en": "MATLAB: Temporal Locality",
+    "zh": "MATLAB：时间局部性",
+    "ko": "MATLAB: 시간적 지역성"
+  },
+  "matlab_not_installed": {
+    "en": "MATLAB is not installed. Please install MATLAB or run .m files manually.",
+    "zh": "MATLAB未安装。请安装MATLAB或手动运行.m文件。",
+    "ko": "MATLAB이 설치되지 않았습니다. MATLAB을 설치하거나 .m 파일을 수동으로 실행하세요."
+  },
+  "running_evaluation": {
+    "en": "Running evaluation, please wait...",
+    "zh": "正在运行评估，请稍候...",
+    "ko": "평가 실행 중, 기다려주세요..."
+  },
+  "evaluation_complete": {
+    "en": "Evaluation complete!",
+    "zh": "评估完成！",
+    "ko": "평가 완료!"
+  },
+  "select_evaluation_type": {
+    "en": "Select Evaluation Type:",
+    "zh": "选择评估类型：",
+    "ko": "평가 유형 선택:"
+  },
+  "pdf_viewer": {
+    "en": "PDF Viewer",
+    "zh": "PDF查看器",
+    "ko": "PDF 뷰어"
+  },
+  "select_chart": {
+    "en": "Select Chart:",
+    "zh": "选择图表：",
+    "ko": "차트 선택:"
+  },
+  "no_pdf_generated": {
+    "en": "No PDF generated yet",
+    "zh": "尚未生成PDF",
+    "ko": "아직 PDF가 생성되지 않았습니다"
+  },
+  "network_type": {
+    "en": "Network Type (LLM Generation)",
+    "zh": "网络类型（大模型生成）",
+    "ko": "네트워크 유형 (LLM 생성)"
+  },
+  "network_social": {
+    "en": "Social Network (personas with demographics)",
+    "zh": "社交网络（含人口统计的用户画像）",
+    "ko": "소셜 네트워크 (인구 통계가 포함된 페르소나)"
+  },
+  "network_drug": {
+    "en": "Drug Network (medications & interactions)",
+    "zh": "药物网络（药物及相互作用）",
+    "ko": "약물 네트워크 (약물 및 상호작용)"
+  },
+  "network_research": {
+    "en": "Research Network (academic collaboration)",
+    "zh": "科研网络（学术合作）",
+    "ko": "연구 네트워크 (학술 협업)"
+  },
+  "network_ecommerce": {
+    "en": "E-commerce Network (users & products)",
+    "zh": "电商网络（用户与商品）",
+    "ko": "전자상거래 네트워크 (사용자 및 제품)"
+  },
+  "real_hypergraph_file": {
+    "en": "Real Hypergraph File (for comparison):",
+    "zh": "真实超图文件（用于比较）：",
+    "ko": "실제 하이퍼그래프 파일 (비교용):"
+  },
+  "js_divergence_comparison": {
+    "en": "JS Divergence Comparison (LLM vs Real)",
+    "zh": "JS散度比较（生成 vs 真实）",
+    "ko": "JS 발산 비교 (LLM vs 실제)"
+  },
+  "please_select_llm_file": {
+    "en": "Please select LLM-generated hypergraph file",
+    "zh": "请选择大模型生成的超图文件",
+    "ko": "LLM 생성 하이퍼그래프 파일을 선택하세요"
+  },
+  "please_select_real_file": {
+    "en": "Please select real hypergraph file for comparison",
+    "zh": "请选择用于比较的真实超图文件",
+    "ko": "비교를 위한 실제 하이퍼그래프 파일을 선택하세요"
+  },
+  "computing": {
+    "en": "Computing",
+    "zh": "计算中",
+    "ko": "계산 중"
+  },
+  "run_community_detection": {
+    "en": "Run Community Detection",
+    "zh": "运行社团检测",
+    "ko": "커뮤니티 탐지 실행"
+  },
+  "run_detection": {
+    "en": "Run Detection",
+    "zh": "开始检测",
+    "ko": "탐지 시작"
+  },
+  "select_personas_file": {
+    "en": "Select Personas File",
+    "zh": "选择节点文件",
+    "ko": "페르소나 파일 선택"
+  },
+  "please_select_personas_file": {
+    "en": "Please select personas file",
+    "zh": "请选择节点文件",
+    "ko": "페르소나 파일을 선택하세요"
+  },
+  "loaded": {
+    "en": "Loaded",
+    "zh": "已加载",
+    "ko": "로드됨"
+  },
+  "failed_to_load": {
+    "en": "Failed to load",
+    "zh": "加载失败",
+    "ko": "로드 실패"
+  }
+}
+
